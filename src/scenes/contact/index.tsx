@@ -2,7 +2,6 @@ import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import ContactGraphic from "@/assets/ContactUs.png";
-import { set } from "react-hook-form/dist/utils";
 import HText from "@/shared/HText";
 
 type Props = {

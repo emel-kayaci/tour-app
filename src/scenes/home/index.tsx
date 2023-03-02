@@ -5,9 +5,9 @@ import { SelectedPage } from "@/shared/types";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePage from "@/assets/HomePage.png";
 // later change
-import Sponsor1 from "@/assets/sponsor1.png";
-import Sponsor2 from "@/assets/Sponsor2.png";
-import Sponsor3 from "@/assets/sponsor3.png";
+import sponsor1 from "@/assets/sponsor1.png";
+import sponsor2 from "@/assets/Sponsor2.png";
+import sponsor3 from "@/assets/sponsor3.png";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -88,9 +88,9 @@ const Home = ({ setSelectedPage }: Props) => {
         <div className="h-[150px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-5/6 ">
             <div className="flex w-3/5 items-center justify-between gap-6">
-              <img src={Sponsor1} alt="sponsor-1" />
-              <img src={Sponsor2} alt="sponsor-2" />
-              <img src={Sponsor3} alt="sponsor-3" />
+              <img src={sponsor1} alt="sponsor-1" />
+              <img src={sponsor2} alt="sponsor-2" />
+              <img src={sponsor3} alt="sponsor-3" />
             </div>
           </div>
         </div>
