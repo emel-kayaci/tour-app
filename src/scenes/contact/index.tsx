@@ -19,12 +19,14 @@ const Contact = ({ setSelectedPage }: Props) => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (e: any) => {
-    const isValid = await trigger();
-    if (!isValid) {
-      e.preventDefault();
-    }
-  };
+  // const onSubmit = async (e: any) => {
+  //   const isValid = await trigger();
+  //   if (!isValid) {
+  //     e.preventDefault();
+  //   }
+  // };
+
+  const onSubmit = {};
 
   return (
     <section id="contact" className="mx-auto w-5/6 pt-24 pb-32">
