@@ -8,7 +8,7 @@ module.exports = {
         "gray-50": "#DCEAFE",
         "gray-100": "#CED7E4",
         "gray-500": "#454545",
-        "primary-100": "#FFEEB6",
+        "primary-100": "#f7e9bb",
         "primary-300": "#F3C42F",
         "primary-500": "#E4B41B",
         "secondary-300": "#EFEFFF",
@@ -16,7 +16,7 @@ module.exports = {
         "secondary-500": "#6569D9",
       },
       backgroundImage: (theme) => ({
-        "gradient-purple": "linear-gradient(90deg, #484A66 0%, #F3F4FF 100%)",
+        "gradient-purple": "linear-gradient(90deg, #484A66 0%, #6569D9 100%)",
         "mobile-home": "url('./assets/HomePage.png')",
       }),
       fontFamily: {
