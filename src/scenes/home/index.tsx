@@ -6,7 +6,7 @@ import HomePageText from "@/assets/HomePageText.png";
 import HomePage from "@/assets/HomePage.png";
 // later change
 import sponsor1 from "@/assets/sponsor1.png";
-import sponsor2 from "@/assets/Sponsor2.png";
+import sponsor2 from "@/assets/sponsor2.png";
 import sponsor3 from "@/assets/sponsor3.png";
 import { motion } from "framer-motion";
 
